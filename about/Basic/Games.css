@@ -1,0 +1,49 @@
+body {
+	background: DeepSkyBlue;
+	background-image: url("404error.gif"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+    display: inline;
+    background-color: #000000;
+ 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+p{
+    text-align: center;
+    color: #ffbb33;
+}
+footer {
+            background-color: #333;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+}
+ul.topnav li a:hover {
+    background-color: #555;
+}
+.active {
+    background-color: #4CAF50;
+}
