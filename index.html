@@ -2,16 +2,15 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transparency Interactive: Music Technology</title>
-
-
+  <title>Transparency Interactive</title>
+  
+  
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
-
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  
 </head>
 
 <body>
@@ -20,33 +19,184 @@
 <nav>
   <div>
 
-   <a id="homebtn" style="display:none"><img  onclick="home()" style="height:57px" src="http://transparencyinteractive.com/comingsoon/logo.png"></a></div>
+   <a id="homebtn" style="display:none"><img  onclick="home()" style="height:57px " src="./logo.png"></a>
+   <form action="http://www.google.com/search"  class="searchform" method="get" name="searchform" style="display:inline;" target="_blank">
+<input autocomplete="on" class="form-controls search" name="q" placeholder="Google Search" required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>
+</div>
  <!-- <div><button>Login</button><button>Sign Up</button></div> -->
-</nav>
+</nav>  
+<br>
+<div id="navmenu" class="slideup" align="center" style="display:block"> 
+  <div class="dropdown">
+  <a href="./learn/index.html"><button class="btn btn-black music dropbtn">Learn</button></a>
+  <div class="dropdown-content">
+    <a href="http://javascript30.com">Javascript30</a>
+    <a href="http://udemy.com">Udemy</a>
+    <a href="http://udacity.com">Udacity</a>
+    <a href="http://khanacademy.org"><i class="fa fa-music"></i>Khan Academy</a>
+    <a href="http://coursera.org">Coursera</a>
+    <a href="http://beta.freecodecamp.com">FreeCodeCamp</a>
+    <a href="https://www.codecademy.com">Codecademy</a>
+    <a href="https://www.codeschool.com">Code School</a>
+    <a href="http://www.rithmschool.com">Rithm School</a>
+    <a href="http://w3schools.com">W3Schools</a>
+    <a href="http://developer.mozilla.org">Mozilla Developer Network</a>
 
-<div class="front" id="front" align="center">
-		<!--nav menu -->
-  <div id="navmenu" class="slideup" style="display:none"><br/>
 
-	<a class="btn btn-black music" align="center" href="http://transparencyinteractive.com/music">Music</a> <br/><br/>
-	<a class="btn btn-black gaming" align="center" href="http://transparencyinteractive.com/comingsoon">Gaming</a><br/><br/>
-  <a class="btn btn-black learn" align="center" href="http://transparencyinteractive.com/comingsoon">Learn</a><br/><br/>
-    <a class="btn btn-black live" align="center" href="http://transparencyinteractive.com/live">Live</a><br/><br/>
-  <a class="btn btn-black blog" align="center" href="http://fibonacciversace.tumblr.com">Blog</a><br/><br/>
-<a class="btn btn-black store" align="center" href="http://transparencyinteractive.com/comingsoon">Store</a><br/><br/>
-	<a class="btn btn-black about" align="center" href="http://transparencyinteractive.com/about">About</a><br/>
-    </div>
-<!--nav menu-->
-  <br/>
- <img id="enter" onclick="Enter()" style="width:40%" src="http://transparencyinteractive.com/comingsoon/logo.png">
-  <div class="spotify"><div id="footer"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adylanblack72%3Aplaylist%3A0ny7XPy01QQMeg0WjCcy4N" width="100%" height="80" frameborder="0" allowtransparency="true"></iframe></div>
 
+<!--
+    <a href="./comingsoon/index.html">Software</a>
+    <a href="./comingsoon/index.html"><i class="fa fa-music"></i>Music</a>
+    <a href="./meditation/index.html">Life</a>
+    <a href="./comingsoon/index.html">Read</a>-->
   </div>
 </div>
 
-  <div id="container">
+<div class="dropdown">
+  <button class="btn btn-black music dropbtn">Tools</button>
+  <div class="dropdown-content">
+    <a href="./freestyleking/index.html">Freestyle King</a>
+    <a href="./random/index.html">Activity Randomizer</a>
+    <a href="https://www.evernote.com/Login.action">Evernote</a>
+    <a href="https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=list&previewType=iframe&page=0">Codepen</a>
+    <a href="https://www.audiotool.com/app">Audiotool</a> 
+    <a href="https://www.piskelapp.com/user/5134564777263104">Piskelapp</a>
+    <a href="https://color.adobe.com/">Adobe Color</a>
+  </div>
+</div>
 
-    <script src="js/index.js"></script>
+<div class="dropdown">
+  <a href="./music/index.html"><button class="btn btn-black music dropbtn">Music</button></a>
+  <div class="dropdown-content">
+    <a href="#">Original</a>
+    <a href="https://victorrose.bandcamp.com/album/i-dont-know-what-im-doing">01 Idkwid</a>
+    <a href="https://victorrose.bandcamp.com/album/transcendence-virtual-reality">02 Transcendence</a>
+    <a href="./comingsoon/index.html">What I'm bumping</a>
+     <a href="https://open.spotify.com">Spotify</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="btn btn-black music dropbtn">Work</button>
+  <div class="dropdown-content">
+     
+    <a href="https://www.upwork.com">Upwork</a>
+    <a href="https://www.fiverr.com">Fiverr</a>
+    <a href="https://www.freelancer.com">Freelancer</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="btn btn-black music dropbtn">Health</button>
+  <div class="dropdown-content">
+    <a href="./meditation/index.html">Meditation</a>
+    <a href="#">Exercise</a>
+    <a href="#">Food</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <a href="./live/index.html"><button class="btn btn-black music dropbtn">Live</button></a>
+  <div class="dropdown-content">
+    <a href="#">FreestyleKing - 7pm EST</a>
+    <a href="#">Music - 9pm EST</a>
+    <a href="#">Gaming - 11pm EST</a>
+    <a href="./comingsoon/index.html">Upcoming Shows</a>
+  </div>
+</div>
+
+<div class="dropdown">
+ <a href="./comingsoon/index.html"><button class="btn btn-black music dropbtn">Store</button></a>
+  <div class="dropdown-content">
+    <a href="./comingsoon/index.html">Merch</a>
+    <a href="./comingsoon/index.html">Software</a>
+    <a href="http://victorrose.bandcamp.com">Music</a>
+    <a href="./comingsoon/index.html">Education</a>
+  </div>
+</div>
+
+<div class="dropdown">
+<a href="./about/index.html" ><button class="btn btn-black music dropbtn">About</button></a>
+  <div class="dropdown-content">
+    <a href="./resume/index.html">- Resume -</a>
+    <a href="./music/index.html">Music</a>
+    <a href="./gaming/index.html">Gaming</a>
+    <a href="./comingsoon/index.html">Software</a>
+    <a href="http://fibonacciversace.tumblr.com">Tumblr</a>
+  </div>
+</div>
+<br>
+<!--  <br>
+
+  <a class="btn btn-black learn" align="center" href="">Learn</a>
+  <a class="btn btn-black live" align="center" href="./live/index.html">Live</a>
+  <a class="btn btn-black blog" align="center" href="http://victordrose.wordpress.com">Blog</a>
+  <a class="btn btn-black blog" align="center" href="http://fibonacciversace.Tumblr.com">Tumblr</a>
+  <a class="btn btn-black blog" align="center" href="">Evernote</a>
+  <a class="btn btn-black store" align="center" href="./comingsoon/index.html">Store</a>
+  <a class="btn btn-black about" align="center" href="./about/index.html">About</a><br/>
+-->
+
+<!-- nav menu  -->
+
+
+<div id="enter" align="center">
+<img id="enter" onclick="password()" style="width:30%" src="./logo.png">
+<!--
+<div id="qp_all1138492" style="width:20%;" height="50%"><link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><STYLE>#qp_main1138492 .qp_btna:hover input {background:#00355F!important} #qp_all1138492 {max-width:815px; margin:0 auto;}</STYLE><div id="qp_main1138492" fp='4d374707-47' results=0 style="border-radius:0px;margin:0 auto;padding:0.8em;background-color:#FFF;font-family: 'Open Sans', sans-serif, Arial;color:#000;border: 1px solid #DBD9D9;max-width:815px;box-sizing:border-box"><div style="font-size:1.2em;background-color:#00355F;color:#FFF;font-family:'Open Sans', sans-serif, Arial"><div style="padding:0.8em;line-height:1.3em">Request me in your city</div></div><form id="qp_form1138492" action="//www.poll-maker.com/results1138492x4d374707-47" method="post" target="_blank" style="display:inline;margin:0px;padding:0px"><div style="padding:0px"><input type=hidden name="qp_d1138492" value="42985.4548958357-42985.4548639616"><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="1" />Los Angeles</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="2" />Milwaukee</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="3" />Chicago</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="4" />Atlanta</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="5" />Austin</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="6" />New Orleans</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="7" />New York City</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="8" />Boston</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="9" />San Francisco</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="10" />Denver</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="11" />Portland</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="12" />Seattle</span></div><div style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both" class="qp_a" onClick="var c=this.getElementsByTagName('INPUT')[0]; if((!event.target?event.srcElement:event.target).tagName!='INPUT'){c.checked=(c.type=='radio'?true:!c.checked)};var i=this.parentNode.parentNode.parentNode.getElementsByTagName('INPUT');for(var k=0;k!=i.length;k=k+1){i[k].parentNode.parentNode.setAttribute('sel',i[k].checked?1:0)}"><span style="display:block;padding-left:30px;cursor:inherit"><input style="float:left;width:20px;margin-left:-25px;margin-top:2px;padding:0px;height:20px;-webkit-appearance:radio;" name="qp_v1138492" type="radio" value="999" />Other</span></div><div id="qp_ot1138492" style="display:block;color:#6B6B6B;font-family: 'Open Sans', sans-serif, Arial;font-size:1.1em;line-height:1.5;padding:13px 8px 11px;margin:10px 0px;clear:both"><div style="padding-left:33px">Please Specify: <input style="width:100%;position:relative;top:2px" name='qp_other1138492' type=text value=''></div></div></div><div style="padding-left:0px;clear:both;text-align:left;margin:1em auto"><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-right:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1138492" style="min-width:7.8em;padding:0.5em;background-color:#0B79D3;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="v" value="Vote" /></a><a style="display:inline-block;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;padding-left:5px;text-decoration:none" class="qp_btna" href="#"><input name="qp_b1138492" style="min-width:7.8em;padding:0.5em;background-color:#0B79D3;font-family: 'Open Sans', sans-serif, Arial;font-size:16px;color:#FFF;cursor:pointer;cursor:hand;border:0px;-webkit-appearance:none;border-radius:0px" type="submit" btype="r" value="Results" /></a></div><a id="qp_a1138492" style="float:right;font-family:Arial;font-size:10px;color:rgb(0,0,0);text-decoration:none" href="https://www.doquizzes.com/Quizzes">Do Quizzes</a></form><div style="display:none"><div id="qp_rp1138492" style="font-size:14px;width:5ex;text-align:right;overflow:hidden;position:absolute;right:5px;height:1.5em;line-height:1.5em"></div><div id="qp_rv1138492" style="font-size:14px;line-height:1.5em;width:0%;text-align:right;color:#FFF;box-sizing:border-box;padding-right:3px"></div><div id="qp_rb1138492" style="font-size:14px;line-height:1.5em;color:#FFFFFF;display:block;padding-right:10px 5px"></div><div id="qp_rva1138492" style="background:#006FB9;border-color:#006FB9"></div><div id="qp_rvb1138492" style="background:#163463;border-color:#163463"></div><div id="qp_rvc1138492" style="background:#5BCFFC;border-color:#1481AB"></div></div></div></div>
+<script src="//scripts.poll-maker.com/3012/scpolls.js" language="javascript"></script>-->
+</div>
+</div>
+<div class="front" id="front" align="center" style="display:none">
+<br>
+<div id="tools1" class="slideup" style="display:none">
+<h1>Welcome Master</h1>
+<br>
+</div>
+
+  <div id="tools" class="slideup" style="display:none">
+    <form method="post" name="postForm">
+    <label for="name">Ideas Bank: </label>
+  <input rows="4" cols="50" type="text" name="title" id="title"  placeholder="title"/>
+  <input rows="4" cols="50" type="text" name="comment" id="comment"  placeholder="comment"/>
+  <input type="submit" value="Send">
+</form>
+<div id="output" class="well">I'm an output</div>
+  <br>
+
+<!--<textarea rows="4" cols="50">
+Calendar/Todo App goes here 
+</textarea>-->
+
+<iframe src="https://calendar.google.com/calendar/embed?src=victordrose%40gmail.com&ctz=America/New_York" style="border: 0" width="40%" height="400" frameborder="0" scrolling="no"></iframe>
+<!--<textarea rows="4" cols="50">
+Todo: Add submit button. Also pressing enter adds text input to feed below
+</textarea>-->
+<iframe src="http://www.memotoo.com/tasksEmbed.php?uid=8e3510787f4181ea5e56159596ecb4e8&amp;q=vxaOb1ylw9vnEEOPzgG4f7v0+pVTyV2rYvxmg4NImb5bW0zhKTbG2dqGnEIPUiAmHM9bcB5bfq5u0yls1WW1bw==" width="40%" height="400" style="border:0px" frameborder="0" scrolling="auto"></iframe>
+<!--<iframe src="./widgets/todo/index.html" width=60% height=40%></iframe>-->
+<br>
+<br>
+  <iframe src="https://app.box.com/embed/s/y836qyoxela63cr1fj8iezg6hsjhj02i?sortColumn=name&view=icon" width="40%" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+  <iframe src="http://students.washington.edu/mjxw/projects/SpeedReader/speedreader.html" width="40%" height="400"></iframe>
+</div>
+
+<br>
+    <!--nav menu -->
+
+<!--<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adylanblack72%3Aplaylist%3A3nUiGTzHcBeFQAMj33e8mn" width="300" height="200" frameborder="0" allowtransparency="true"></iframe>-->
+<!--<audio autoplay="autoplay" controls="" hidden>
+  <source src="./CautionTape.mp3" type="audio/mp3">
+  </audio>-->
+</div>
+  
+    
+
+    <footer class="footer"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adylanblack72%3Aplaylist%3A0ny7XPy01QQMeg0WjCcy4N" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+  </footer>
 
 </body>
+<script src="js/index.js"></script>
 </html>
